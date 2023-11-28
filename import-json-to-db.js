@@ -13,14 +13,11 @@ let data = JSON.parse(json);
 
 // Create a connection 'db' to the database
 const db = await mysql.createConnection({
-  // CHANGE TO 127.0.0.1 IF YOU WANT TO RUN LOCAL DB
-  host: '161.97.144.27',
-  // CHANGE TO YOUR PORT
-  port: "8093",
-  user: 'root',
-  // CHANGE TO YOUR PASSWORD
-  password: 'guessagain93',
-  database: 'movies'
+  host: '',
+  port: " ",
+  user: ' ',
+  password: ' ',
+  database: ' '
 });
 
 // A small function for a query
